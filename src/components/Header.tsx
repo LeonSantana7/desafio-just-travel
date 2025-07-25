@@ -2,12 +2,12 @@ import { useState } from "react";
 import { Navbar, Container, Nav, Button, Badge } from "react-bootstrap";
 import { useSelector } from "react-redux";
 import type { RootState } from "../redux/store";
-import { LinkContainer } from "react-router-bootstrap";
 import Cart from "./Cart";
 
 import { BsQuestionCircle, BsPerson, BsCart3 } from "react-icons/bs";
 
 import flagBr from "../assets/flag-br.png";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const cartItems = useSelector((state: RootState) => state.cart.items);
@@ -21,17 +21,17 @@ const Header = () => {
     <>
       <Navbar bg="white" expand="lg" className="shadow-sm py-2">
         <Container>
-          <LinkContainer to="/">
-            <Navbar.Brand
-              style={{
-                color: "#0A2156",
-                fontWeight: "bold",
-                fontSize: "1.5rem",
-              }}
-            >
-              logoipsum
-            </Navbar.Brand>
-          </LinkContainer>
+          <Link
+            to="/"
+            style={{
+              textDecoration: "none",
+              color: "#0A2156",
+              fontWeight: "bold",
+              fontSize: "1.5rem",
+            }}
+          >
+            logoipsum
+          </Link>
 
           <Nav
             className="ms-auto d-flex flex-row align-items-center"
