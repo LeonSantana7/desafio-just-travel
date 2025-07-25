@@ -1,6 +1,6 @@
 # Desafio Frontend JustTravel
 
-Este projeto é a implementação de um desafio técnico para uma vaga de desenvolvedor Frontend, consistindo na criação da interface de uma loja de turismo. A aplicação permite aos usuários visualizar, buscar, paginar e adicionar ingressos de turismo a um carrinho de compras.
+Este projeto é a implementação de um desafio técnico Frontend, consistindo na criação da interface de uma loja de turismo. A aplicação permite aos usuários visualizar, buscar, paginar e adicionar ingressos de turismo a um carrinho de compras.
 
 ---
 
